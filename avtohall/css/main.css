@@ -1,0 +1,551 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+    color: #333 !important;
+}
+.hidden {
+	display: none;
+}
+.carousel img {
+	width: 100%;
+	height: auto;
+}
+.parallax {
+	background-attachment: fixed;
+	background-position: 50% 0;
+	position: relative;
+}
+header{
+    position: relative;
+    background-image: url("../img/top-bg.jpg");
+    background-repeat: repeat-x;
+    background-position: center top;
+    min-height: 644px;
+    font-family: "BebasBold";
+}
+
+header a{
+    color: #fff;
+}
+
+.top_line{
+    min-height: 97px;
+    padding:22px 0;
+    -webkit-box-shadow: rgba(255,255,255,.3) 0 0 0 1px;
+    box-shadow: rgba(255,255,255,.3) 0 0 0 1px;
+    width: 100%;
+    background-color: rgba(0,0,0,.60);
+}
+
+.top_addr{
+    padding-left: 48px;
+    background-image: url("../img/top-map.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    line-height: 26px;
+    
+}
+
+.top_addr strong{
+    display: block;
+    color:#d12f22;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 32px;
+    
+}
+
+.top_line a{
+    border-bottom: #fff dashed 1px;
+    font-size: 21px;
+    -webkit-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
+}
+.top_line a:hover{
+    border-bottom: transparent 1px dashed;
+    
+}
+
+.top_line .logo{
+    border-bottom: none;
+    position: absolute;
+    margin-top: -18px;
+}
+
+.top_line .logo:hover{
+    border-bottom: none;
+}
+
+.logo_wrap{
+    position: relative;
+    width: 240px;
+    margin: auto;
+}
+
+.ta_right{
+    background-image: none;
+    padding-left: 0;
+    text-align: right;
+}
+
+.ta_right span{
+    color: #fff;
+}
+
+header h1{
+    text-align: center;
+    color: #fff;
+    margin-top: 65px;
+    font-size: 40px;
+    text-shadow: rgba(0,0,0,.55) 0 3px;
+    
+}
+
+.button{
+    display: inline-block;
+    background-color: #d12f22;
+    height: 50px;
+    vertical-align: middle;
+    line-height: 50px;
+    padding: 0 25px;
+    font-size: 20px;
+    border-bottom: 4px solid #ac160a;
+    color: #fff;
+    font-family: "BebasBold";
+}
+.button:hover{
+    background-color: #e64437;
+}
+.button:active{
+    background-color: #b81609;
+}
+
+header .button{
+    margin-right: 20px;
+}
+
+.st_button{
+    line-height: 18px;
+    padding-top: 7px;
+    text-align: left;
+    padding-left: 70px;
+    background-image: url(../img/camera-ic.png);
+    background-repeat: no-repeat;
+    background-position: 13px 8px;
+    
+}
+
+.buttons_top{
+    position: absolute;
+    width: 100%;
+    bottom: 32px;
+}
+
+.top_menu{
+    height: 62px;
+    background-color: #242424;
+    -webkit-box-shadow: rgba(255,255,255,.3) 0 0 0 1px;
+    box-shadow: rgba(255,255,255,.3) 0 0 0 1px;
+    font-family: "BebasRegular";
+    text-transform: uppercase;
+}
+
+.top_menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.top_menu a{
+    color: #fff;
+    font-size: 20px;
+    padding: 0 26px 0 54px;
+    display: block;
+    border-top: #3B3B3B 1px solid;
+    line-height: 60px;
+    border-left: #3b3b3b 1px solid;
+    background-repeat: no-repeat;
+    background-position: 20px 18px;
+}
+
+.top_menu li{
+    float: left;
+}
+
+.top_menu li.current-menu-item a,
+.top_menu li:hover a {
+	background-color: #050505;
+}
+.top_menu ul li a.menu-ic1{background-image: url(../img/home-ic.png);}
+.top_menu ul li a.menu-ic2{background-image: url(../img/menu-ic2.png);
+background-position: 19px 19px;}
+.top_menu ul li a.menu-ic3{background-image: url(../img/menu-ic3.png);
+background-position: 27px 20px;}
+.top_menu ul li a.menu-ic4{background-image: url(../img/menu-ic4.png);
+background-position: 18px 19px;}
+.top_menu ul li a.menu-ic5{background-image: url(../img/menu-ic5.png);
+background-position: 19px 20px;}
+.top_menu ul li a.menu-ic6{background-image: url(../img/menu-ic6.png);
+background-position: 22px 16px;}
+
+
+.garanty{
+    border: 3px solid #fff;
+	border-radius: 3px;
+	color: #fff;
+	cursor: default;
+	float: right;
+	font-size: 15px;
+	padding: 3px 5px;
+	line-height: 16px;
+	margin-top: 10px;
+}
+.g_left span{
+    font-size: 34px;
+}
+.g_left{
+   font-family: "BebasBold";
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-right: 7px;
+    
+}
+.g_right{
+    display: inline-block;
+    vertical-align: top;
+    font-family: "RobotoCondensedRegular";
+    
+}
+
+.main_cats{
+    background-color: #191919;
+    padding: 20px 0 40px;
+}
+
+.main_cats h2,
+article h2.art_header{
+    text-transform: uppercase;
+    color:#c9c9c9;
+    font-family: "BebasRegular";
+    font-size: 40px;
+    text-align: center;
+    margin: 35px auto;
+}
+.main_cats h2 strong{
+    color: #fff;
+}
+.main_cats h2 span{
+    color:#d12f22;
+    
+}
+
+section h2,article h2{
+    position: relative;
+}
+
+.s_black h2::before{
+    content: "";
+    position: absolute;
+    top:20px;
+    margin-left: -65px;
+    width: 50px;
+    height: 20px;
+    background-image: url(../img/heder.png);
+}
+.s_black h2::after{
+    content: "";
+    position: absolute;
+    top:20px;
+    margin-left:15px;
+    width: 50px;
+    height: 20px;
+    background-image: url(../img/heder1.png);
+}
+.mc_item{
+    border: #353535 solid 1px;
+    border-radius: 2px;
+    
+    
+}
+.mc_item_wrap{
+    margin-left: 30px;
+	width: 160px;
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.mc_item_wrap:first-child{
+    margin-left: 0;
+    
+}
+
+.mc_item_wrap a{
+    color: #fff;
+}
+
+.mc_item span{
+    display: block;
+    height: 85px;
+    width: 130px;
+    background-image: url(../img/item1.png);
+    background-repeat: no-repeat;
+    margin: 15px auto 0;
+    background-position: center center;
+}
+
+.mc_item .qwerty{
+    position: relative;
+    background-color: #212121;
+    height: 25px;
+    cursor: pointer;
+    background-image: url(../img/strelka1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.mc_item_wrap:hover .qwerty {
+	background-color: #353535;
+    background-image: url(../img/strelka.png);
+}
+
+
+.mc_wrap{
+    text-align: center;
+	padding: 0;
+	position: relative;
+}
+
+.mc_item_wrap:nth-child(2) span{background-image: url(../img/item2.png);}
+.mc_item_wrap:nth-child(3) span{background-image: url(../img/item3.png);}
+.mc_item_wrap:nth-child(4) span{background-image: url(../img/item4.png);}
+.mc_item_wrap:nth-child(5) span{background-image: url(../img/item5.png);}
+.mc_item_wrap:nth-child(6) span{background-image: url(../img/item6.png);}
+
+.mc_item h4{
+    font-weight: normal;
+    font-family: "BebasBold";
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+.mc_item a:hover h4,
+.mc_item_wrap.active h4
+{
+    text-decoration: underline;
+}
+
+
+.mc_item_wrap:hover{
+    background-color: #2a2a2a;
+}
+body .mc_wrap .mc_item_wrap > ul {
+	background-color: #353535;
+	font-size: 20px;
+	margin-top: 25px;
+	position: absolute;
+	width: 100%;
+	padding: 15px 0;
+	list-style-type: none;
+	position: absolute;
+	width: 100%;
+    z-index: 10;
+    display: none;
+	left: 0;
+}
+
+.mc_item_wrap > ul li{
+    display: inline-block;
+    font-family: "BebasRegular";
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.mc_item_wrap > ul li a{
+    padding: 0 20px;
+    text-decoration: underline;
+}
+.mc_item_wrap > ul li a:hover{
+    text-decoration: none;
+}
+
+.mc_item_wrap_af{
+    position: absolute;
+    margin: 16px 69px;
+    content: "";
+    background-image: url("../img/ms_chidren_arrow.png");
+    width: 18px;
+    height: 9px;
+    display: none;
+    
+}
+
+.mc_button_w{
+    text-align: center;
+    margin-top: 10px;
+}
+
+article.content{
+    background-color: #e9e9e9;
+}
+
+
+article h2.art_header::before{
+    content: "";
+    position: absolute;
+    top:20px;
+    margin-left: -65px;
+    width: 50px;
+    height: 20px;
+    background-image: url(../img/article_h2.png);
+}
+article h2.art_header::after{
+    content: "";
+    position: absolute;
+    top:20px;
+    margin-left:15px;
+    width: 50px;
+    height: 20px;
+    background-image: url(../img/article1_h2.png);
+}
+
+article h2.art_header{
+    color: #050505;
+    margin-bottom: 10px;
+}
+
+.h2_descr{
+    max-width: 790px;
+    text-align: center;
+    margin: auto;
+    margin-top: 0;
+    color: #050505;
+}
+
+.home_items{
+    background-color: #D6D6D6;
+    padding: 40px 0;
+    margin-top: 40px;
+    
+}
+
+.hi_item img{
+    max-width: 100%;
+    border-top: 8px solid #ac160a;
+}
+
+.hi_item {
+    color: #050505;
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+.s_bottom img{
+    max-width: 90%;
+    bottom: 0;
+    position: absolute;
+    
+    
+}
+
+.s_bottom{
+    padding-top: 32px;
+}
+.s_bottom .sb_header h2{
+    margin: 0;
+    text-transform: uppercase;
+    font-family: "BebasRegular";
+    font-size: 36px;
+}
+
+.sb_content{
+    margin-top: 30px;
+}
+
+.sb_header .sb_but{
+    text-align: right;
+}
+
+.sb_content p{
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+
+footer{
+    background-color: #2a2a2a;
+    color:#fff;
+    padding: 28px 0 35px;
+    font-family: "BebasBold";
+    font-size: 20px;
+}
+footer a{
+    color:#fff;
+    padding: 0 10px;
+    text-decoration: underline;
+}
+footer a:hover{
+    text-decoration: none;
+}
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+footer ul li{
+    float: left;
+}
+
+
+.small_mnu {
+	display: none;
+	font-size: 22px;
+	height: 62px;
+	line-height: 62px;
+}
+
+.services_mnu {
+	color: #fff;
+	display: none;
+	font-family: BebasRegular;
+	font-size: 20px;
+	height: 62px;
+	line-height: 62px;
+	padding: 0 20px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.isnohome .services_mnu {
+	display: block;
+}
