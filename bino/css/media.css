@@ -1,0 +1,204 @@
+/*==========  Desktop First Method  ==========*/
+@media only screen and (max-width : 1375px) {
+    
+    .owl-nav div {
+  margin-left: 0;
+      }
+    .owl-nav div.owl-next {
+      margin-right: 0; 
+        }
+    
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .menu li{
+        margin-right: 32px;
+    }
+    .owl-nav div {
+  margin-left: 0;
+      }
+    .owl-nav div.owl-next {
+      margin-right: 0; 
+        }
+    
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .menu ul{
+        padding: 0;
+    }
+    .menu li{
+        margin-right: 13px;
+    }
+    .owl-nav {
+      display: none;
+      }
+    
+    .owl-dots {
+display: block;
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.owl-dots .owl-dot {
+  width: 14px;
+  height: 14px;
+  background-color: #fff;
+  display: inline-block;
+  margin: 0 4px;
+  border-radius: 50%;
+  opacity: .5;
+}
+
+.owl-dots .owl-dot.active {
+  opacity: .8;
+}
+    
+}
+
+@media screen and (max-width: 860px) {
+    
+    .menu {
+        width:100%;
+        border-radius:3px;
+    }
+    
+    .menu {
+        position:relative;
+        display:inline-block;
+    }
+ 
+    .menu ul.active {
+        display:none;
+    }
+ 
+    .menu ul {
+        width:100%;
+        position:absolute;
+        top:120%;
+        left:0px;
+        padding:10px 18px;
+        box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+        border-radius:3px;
+        background:#303030;
+    }
+ 
+    .menu ul:after {
+        width:0px;
+        height:0px;
+        position:absolute;
+        top:0%;
+        right:22px;
+        content:'';
+        transform:translate(0%, -100%);
+        border-left:7px solid transparent;
+        border-right:7px solid transparent;
+        border-bottom:7px solid #303030;
+    }
+ 
+    .menu li {
+        margin:5px 0px 5px 0px;
+        float:none;
+        display:block;
+    }
+    .menu li:hover {
+        border: none;
+        padding: 0;
+    }
+ 
+    .menu a {
+        display:block;
+        color: #fff;
+        text-decoration: none;
+    }
+ 
+    .toggle-nav {
+        padding:11px;
+        float:right;
+        display:inline-block;
+        box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+        border-radius:3px;
+        background:#303030;
+        text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+        color:#777;
+        font-size:20px;
+        transition:color linear 0.15s;
+    }
+ 
+    .toggle-nav:hover, .toggle-nav.active {
+        text-decoration:none;
+        color:#e74c3c;
+    }
+    
+ 
+    
+ 
+    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .top_header h1{
+        font-size: 36px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .top_header{
+        margin-top: 100px;
+    }
+    .top_header h1{
+        font-size: 24px;
+    }
+    .top_header h3{
+        font-size: 16px;
+    }
+    .button{
+        display: block;
+        margin-bottom: 20px;
+    }
+    .button:last-child{
+        margin-bottom: 0;
+    }
+    .menu{
+        z-index: 1000;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
