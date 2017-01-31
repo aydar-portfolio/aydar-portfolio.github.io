@@ -22,11 +22,22 @@
     .owl-nav div.owl-next {
       margin-right: 0; 
         }
+
+	.i_mac_img {
+		margin: 0;
+		padding: 0;
+	}
+	.i_mac_img img {
+		width: 95%;
+	}
     
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	.i_mac_img {
+		margin-bottom: 100px
+	}
     .menu ul{
         padding: 0;
     }
@@ -133,7 +144,9 @@ display: block;
         text-decoration:none;
         color:#e74c3c;
     }
-    
+    .scrooldown{
+        left: 45.5%
+    }
  
     
  
@@ -144,6 +157,9 @@ display: block;
 @media only screen and (max-width : 768px) {
     .top_header h1{
         font-size: 36px;
+    }
+    .scrooldown{
+        left: 46%
     }
 }
 
@@ -167,6 +183,9 @@ display: block;
     }
     .menu{
         z-index: 1000;
+    }
+    .scrooldown{
+        left: 44%
     }
 }
 

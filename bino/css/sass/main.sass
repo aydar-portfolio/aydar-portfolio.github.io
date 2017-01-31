@@ -21,18 +21,24 @@ body textarea:required:valid
 
 .hidden
 	display: none
+.no-padding
+	padding: 0 !important
+	margin: 0 !important
+	
+.text-right
+	text-align: right
 header
-    min-height: 820px
-    background-image: url("../img/top_bg.jpg")
-    background-position: top center
-    background-repeat: no-repeat;
-    background-size: cover
-    padding-top: 40px
-    padding-bottom: 260px
-    position: relative
+	min-height: 820px
+	background-image: url("../img/top_bg.jpg")
+	background-position: top center
+	background-repeat: no-repeat;
+	background-size: cover
+	padding-top: 40px
+	padding-bottom: 260px
+	position: relative
 .logo_wrap
-    width: 141px
-    height: 52px
+	width: 141px
+	height: 52px
     
 .menu
     height: 52px
@@ -182,7 +188,158 @@ a.button
     display: none;
                
             
-        
+.scrooldown
+    position: absolute
+    left: 47.5%
+    bottom: 2%
+    width: 64px
+    height: 64px
+    line-height: 48px
+    background: #f4f5f9
+    border-radius: 50%
+    text-align: center
+    z-index: 9
+.scrooldown a i
+    display: inline-block
+    width: 64px
+    height: 64px
+    background-image: url("../img/anchor.png")
+    background-repeat: no-repeat
+    background-position: center center
+    font-size: 1.5rem
+    color: #e74c3c
+.s_four_item
+	padding: 100px 0 105px
+	text-align: center
+	.border_wrap
+		.border
+			display: inline-block
+			width: 72px
+			height: 72px
+			border: 1px solid rgba(69,87,110,0.25)
+			border-radius: 1px
+			transition: all 0.6s;
+			&:hover
+				border-color: $red-color
+				transform: rotate(45deg)
+				i
+					transform: rotate(-45deg)
+			
+			.fa
+				color: $red-color
+				font-size: 32px
+				line-height: 72px
+				transition: all 0.6s;
+				
+
+	h3
+		margin: 34px 0 0 0
+		font-size: 18px
+		font-family: "Open Sans", sans-serif
+    	font-weight: bold
+		color: #6a6a6a
+		transition: all 0.6s;
+		text-transform: uppercase
+	.hr
+		display:inline-block
+		height: 1px
+		width: 42px
+		background-color: #777
+		margin: 20px auto
+	p
+		margin: 0
+		color: #999999
+		font-size: 12px
+		font-family: "Open Sans", sans-serif
+		font-weight: normal
+            
+section.i_mac
+		padding: 135px 0 145px
+		background-color: #f4f5f9
+		i
+		h2
+			padding-left: 28px
+			margin: 0
+			border-left: 6px solid $red-color
+			text-transform: uppercase
+			font-size: 36px
+			color: #6a6a6a
+		p
+			margin: 47px 0 0 0
+			font-size: 14px
+			color : #999999
+			line-height: 28px
+		.button
+			font-family: "Open Sans", sans-serif
+			font-size: 14px
+			box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.25)
+			
+.service
+	margin: 0
+	padding: 0
+	background-color: #202020
+	background-image: url("../img/put-your-image.png")
+	background-repeat: no-repeat
+	background-position: center right
+	max-height: 768px
+	background-size: 50% 100%
+	
+	.service_text_wrap
+		margin: 0
+		padding: 0
+		margin-right: 50px
+		
+		&:first-child
+			margin-top: -140px
+		margin-bottom: 70px
+		&:last-child
+			margin-bottom: 80px
+		h2
+			font-size: 36px
+			color: #f4f5f9
+			padding: 0
+			margin: 0
+			padding-right: 45px
+			border-right: 6px solid $red-color
+			text-transform: uppercase
+			margin-bottom: 70px
+			font-family: "Open Sans", sans-serif
+		h3
+			margin: 0
+			padding: 0
+			font-size: 18px
+			color: $red-color
+			text-transform: uppercase
+			font-weight: normal
+		p
+			margin: 0
+			margin-top: 10px
+			padding: 0
+			font-size: 14px
+			color: #999999
+			line-height: 28px
+
+
+.circle_wrap
+	text-align: center
+	position: relative
+	
+	
+	.circle
+		display: block
+		
+		
+		.fa
+			display: inline-block
+			width: 73px
+			height: 73px
+			background-image: url("../img/anchor.png")
+			background-repeat: no-repeat
+			background-position: center center
+			background-color: #fff
+			border-radius: 50%
+			font-size: 1.5rem
+			color: #e74c3c
 
             
             
@@ -195,15 +352,35 @@ a.button
             
             
             
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-    
+  
+	
+	
+	
+	
+
+	
+	
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
