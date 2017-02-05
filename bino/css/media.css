@@ -13,6 +13,16 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+	.our_pricing .pricing_items_wrap .price_item .price_white{
+		margin-top: -221px;
+	}
+	.our_pricing .pricing_items_wrap .price_item .price_wrap{
+		margin-top: -232px;
+	}
+	.our_blog .our_blog_wrap .our_blog_item_wrap .blog_text{
+		height: 242px;
+		padding: 0 20px;
+	}
     .menu li{
         margin-right: 32px;
     }
@@ -28,15 +38,52 @@
 		padding: 0;
 	}
 	.i_mac_img img {
-		width: 95%;
+		width: 100%;
 	}
+	.counter .counter_item_wrap{
+		margin-right: 68px;	
+	} 
+	.counter .counter_item_wrap:last-child{
+		margin-right: 0;	
+	} 
     
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	.counter .container{
+		margin: 0;
+		width: 100%;
+	}
+	.counter .counter_item_wrap{
+		margin-right: 68px;	
+	} 
+	.counter .counter_item_wrap:last-child{
+		margin-right: 0;	
+	} 
+	
+	.service .service_text_wrap{
+		text-align: left;
+		margin-right: 0;
+		margin-left: 10px;
+	}
+	
+	.service .service_text_wrap h2{
+		font-size: 24px;
+		padding-right: 0;
+		border: none;
+		margin-bottom: 30px;
+	}
+	.s_four_item .four_item_wrap{
+		margin-bottom: 30px;
+	}
+	.s_four_item .four_item_wrap p{
+		width: 50%;
+		margin: 0 auto;
+	}
+	
 	.i_mac_img {
-		margin-bottom: 100px
+		margin-bottom: 100px;
 	}
     .menu ul{
         padding: 0;
@@ -155,16 +202,119 @@ display: block;
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+	.our_pricing .pricing_items_wrap .price_item .price_white{
+		margin-top: -270px;
+	}
+	.our_pricing .pricing_items_wrap .price_item .price_wrap{
+		margin-top: -282px;
+	}
+	
+	.case_study .bgi_wrap{
+		background-image: none;
+	}
+	
+	.our_blog .our_blog_wrap .our_blog_item_wrap .blog_text{
+		height: 600px;
+		padding: 100px;
+	}
+	.our_blog .our_blog_wrap .our_blog_item_wrap .blog_text span{
+		font-size: 24px;
+	}
+	.our_blog .our_blog_wrap .our_blog_item_wrap .blog_text h3{
+		font-size: 36px;
+	}
+	.our_blog .our_blog_wrap .our_blog_item_wrap .blog_text p{
+		font-size: 24px;
+		line-height: 24px;
+		text-align: center;
+	}
+	.our_blog .our_blog_wrap .our_blog_item_wrap .blog_text a{
+		font-size: 36px;
+	}
+	
+	.counter .counter_item_wrap{
+		margin-right: 18px;	
+	} 
+	.counter .counter_item_wrap:last-child{
+		margin-right: 0;	
+	} 
+	
     .top_header h1{
         font-size: 36px;
     }
     .scrooldown{
         left: 46%
     }
+	.our_team h2{
+		margin-top: 50px;
+	}
+	
+	.our_team .team_wrap {
+		margin-top: 30px;
+	}
+	.service .service_text_wrap{
+		margin-bottom: 30px;
+	}
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+	.button{
+		margin-right: 0;
+	}
+	.get_start .button_wrap{
+		margin-top: 0;
+	}
+	.get_start .button{
+		margin-right: 0;
+	}
+	
+	.our_pricing .pricing_items_wrap .price_item .price_white{
+		margin-top: -184px;
+	}
+	.our_pricing .pricing_items_wrap .price_item .price_wrap{
+		margin-top: -195px;
+	}
+	.our_pricing .pricing_items_wrap .price_item{
+		margin-top: 10px;
+	}
+	.our_blog .our_blog_wrap .our_blog_item_wrap .blog_text{
+		height: 600px;
+		padding: 50px;
+	}
+	.counter .counter_item_wrap{
+		margin-top: 20px;
+	} 
+	.counter .counter_item_wrap{
+		margin-right: 10px;
+	}
+	.counter .counter_item_wrap:last-child{
+		margin-right: 0;
+	}
+	.counter .counter_item_wrap h3{
+		padding: 0;
+	}
+	
+	
+	
+	.service{
+		background-image: none;
+		
+	}
+	.service .circle_wrap{
+		display: none;
+	}
+	.service .service_text_wrap{
+		text-align: center;
+	} 
+	
+	.service .row .col-xs-6{
+		width: 100%;
+	}
+	.our_team .team_wrap h3{
+		font-size: 18px;
+		
+	}
     .top_header{
         margin-top: 100px;
     }
@@ -191,7 +341,26 @@ display: block;
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-
+	.keep_in form{
+		padding: 60px;
+	}
+	.get_start{
+		padding: 60px 0 0;
+	}
+	.get_start h2{
+		font-size: 26px;
+	}
+	
+	.our_blog .our_blog_wrap .our_blog_item_wrap .blog_text{
+		height: 600px;
+		padding: 30px;
+	}
+.our_team .team_wrap h3{
+		font-size: 14px;
+	}
+	.counter{
+		background-repeat: repeat;
+	}
 }
 
 
