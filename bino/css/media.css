@@ -259,6 +259,21 @@ display: block;
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+	.our_blog .our_blog_wrap .our_blog_item_wrap .blog_text h3{
+		font-size: 24px;
+	}
+	.our_blog .our_blog_wrap .our_blog_item_wrap .blog_text a{
+		font-size: 24px;
+	}
+	.our_blog .our_blog_wrap .our_blog_item_wrap .blog_text p{
+		font-size: 16px;
+	}
+	.get_start{
+		padding: 60px 0 0;
+	}
+	.get_start h2{
+		font-size: 26px;
+	}
 	.button{
 		margin-right: 0;
 	}
